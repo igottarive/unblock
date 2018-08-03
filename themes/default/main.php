@@ -268,14 +268,15 @@
 
 		<!-- CONTENT END -->
 	 
-		<!--<ul id="nav">
+		<ul id="nav">
 			<li class="left"><a href="index.php">Home</a></li>
 			<li class="left"><a href="edit-browser.php">Edit Browser</a></li>
 			<li class="left"><a href="cookies.php">Manage Cookies</a></li>
 			<li><a href="disclaimer.php">Disclaimer</a></li>            
-		</ul>-->
+		</ul>
 	</div>
 	<div id="footer">
+		Powered by <a href="http://www.glype.com/">Glype</a>&reg; <!--[version]-->.
 	</div>
 </div>
 </body>
