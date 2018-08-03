@@ -33,6 +33,7 @@
 	/* LAYOUT */
 	#wrapper {
 		width: 700px;
+		padding-top: 15vh;
 		margin: 0 auto 0 auto;
 		text-align: left;
 	}
@@ -76,6 +77,7 @@
 		font-size: 80%;
 		background-color: transparent;
 		padding: 10px;
+		text-align: center;
 	}
 	#options {
 		list-style-type: none;
@@ -114,19 +116,25 @@
 		margin-top: 0;
 	}
 	input.textbox {
-		width: 485px;
+		width: 100%;
 		font: 120% arial, verdana, sans-serif;
+		border-radius: 4px;
+		border: none;
 	}
 	input.button {
 		margin-top: 10px;
-		font-family: arial, verdana, sans-serif;
-		font-size: 120%;
-		color: #fff;
-		background-color: #337ab7;
-		border: none;
-		border-radius: 4px;
-		text-transform:uppercase;
-		padding: 3px 10px;
+    font-family: arial, verdana, sans-serif;
+    font-size: 120%;
+    color: #3379b7;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    min-width: 15%;
+    /* margin: 0 auto; */
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 3px 10px;
 	}
 	label {
 		font-weight: light;
@@ -237,7 +245,19 @@
 
 		<form action="includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form">
 			<input type="text" name="u" id="input" size="40" class="textbox">
-			<input type="submit" value="Go" class="button"> &nbsp; <a style="margin-top: 10px;font-family: arial, verdana, sans-serif;font-size: 120%;color: #fff;background-color: #337ab7;border: none;border-radius: 4px;padding: 3px 10px;text-transform:uppercase;" style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">options</a>
+			<input type="submit" value="Go" class="button"> &nbsp; <a style="margin-top: 10px;
+    font-family: arial, verdana, sans-serif;
+    font-size: 120%;
+    color: #3379b7;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    min-width: 15%;
+    /* margin: 0 auto; */
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 3px 10px;" style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">options</a>
 			<ul id="options">
 				<?php foreach ($toShow as $option) echo '<li><input type="checkbox" name="'.$option['name'].'" id="'.$option['name'].'"'.$option['checked'].'><label for="'.$option['name'].'" class="tooltip" onmouseover="tooltip(\''.$option['escaped_desc'].'\')" onmouseout="exit();">'.$option['title'].'</label></li>';?>
 			</ul>
@@ -248,15 +268,14 @@
 
 		<!-- CONTENT END -->
 	 
-		<ul id="nav">
+		<!--<ul id="nav">
 			<li class="left"><a href="index.php">Home</a></li>
 			<li class="left"><a href="edit-browser.php">Edit Browser</a></li>
 			<li class="left"><a href="cookies.php">Manage Cookies</a></li>
 			<li><a href="disclaimer.php">Disclaimer</a></li>            
-		</ul>
+		</ul>-->
 	</div>
 	<div id="footer">
-		Powered by <a href="http://www.glype.com/">Glype</a>&reg; <!--[version]-->.
 	</div>
 </div>
 </body>
