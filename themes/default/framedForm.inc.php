@@ -16,6 +16,7 @@
    #include p {
       margin: 4px 0 0 10px;
       display: block;
+      color: #c1d5db;
    }
    #include b {
       font-weight: bold;
@@ -26,8 +27,6 @@
    
    /* Style the mini-form div */
    #include {
-      border-top: 3px solid #ce6c1c;
-      border-bottom: 3px solid #ce6c1c;
       background: #0b1933;
       position: absolute;
       top:0; left:0;

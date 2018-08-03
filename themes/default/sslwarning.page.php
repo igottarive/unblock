@@ -3,7 +3,7 @@
 	<title>Security Warning</title>
 	<style type="text/css">
 html, body {
-	background: #0b1933;
+	background: linear-gradient(#0594be, #023149);
 	text-align: center;
 }
 body {

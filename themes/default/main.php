@@ -16,7 +16,7 @@
 		text-align: center;
 	}
 	a {
-		color: #EF7B0A;
+		color: #fff;
 		text-decoration:none; 
 	}
 	a:hover {
@@ -66,8 +66,8 @@
 	}
 	h2 {
 		font: bold 100% arial, verdana, sans-serif;
-		color: #3B578B;
-		border-bottom: 1px solid #ccc;
+		color: #fff;
+		text-align: center;
 		padding-bottom: 3px;
 		margin: 25px 0 10px 0;
 	}
@@ -76,7 +76,7 @@
 	}
 	form.form {
 		font-size: 80%;
-		background-color: #f5f5f5;
+		background-color: transparent;
 		padding: 10px;
 	}
 	#options {
