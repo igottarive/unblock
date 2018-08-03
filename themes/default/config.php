@@ -35,9 +35,9 @@ $themeReplace['meta_keywords'] = <<<OUT
 
 OUT;
 
-// Proxy description text
+// Proxy description text below "Enter any website address below to enjoy full and unlimited access to the site. Select the nearest server to your location for faster performance."
 $themeReplace['description'] = <<<OUT
-   <p>Enter any website address below to enjoy full and unlimited access to the site. Select the nearest server to your location for faster performance.</p>
+
 OUT;
 
 // Ad location above the form on the index page

@@ -9,7 +9,7 @@
 	/* GLOBAL ELEMENTS */
 	html,body {
 		margin: 0; padding: 0;
-		background: #0b1933;
+		background: linear-gradient(#0594be, #023149);
 		font-size: 100%;
 		font-family: "trebuchet ms", arial, verdana;
 		color: #444;
@@ -38,9 +38,7 @@
 	}
 	
 	#content {
-		background: #fff;
-		border-top: 3px solid #ce6c1c;
-		border-bottom: 3px solid #ce6c1c;
+		background: transparent;
 		padding: 20px;
 	}
 	
@@ -65,8 +63,8 @@
 		color: #FFFFFF;
 	}
 	h2 {
-		font: bold 100% arial, verdana, sans-serif;
-		color: #fff;
+		font: 100% arial, verdana, sans-serif;
+		color: #bcd6dd;
 		text-align: center;
 		padding-bottom: 3px;
 		margin: 25px 0 10px 0;
@@ -116,13 +114,19 @@
 		margin-top: 0;
 	}
 	input.textbox {
-		width: 500px;
+		width: 485px;
 		font: 120% arial, verdana, sans-serif;
 	}
 	input.button {
 		margin-top: 10px;
 		font-family: arial, verdana, sans-serif;
 		font-size: 120%;
+		color: #fff;
+		background-color: #337ab7;
+		border: none;
+		border-radius: 4px;
+		text-transform:uppercase;
+		padding: 3px 10px;
 	}
 	label {
 		font-weight: light;
@@ -224,17 +228,16 @@
 
 		<!--[error]-->
 
-		<h2 class="first">About</h2>
+		<h2 class="first">Enter any website address below to enjoy full and unlimited access to the site. Select the nearest server to your location for faster performance.</h2>
 
 		<!--[description]-->
 
-		<h2>Enter URL</h2>
 
 		<!--[index_above_form]-->
 
 		<form action="includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form">
 			<input type="text" name="u" id="input" size="40" class="textbox">
-			<input type="submit" value="Go" class="button"> &nbsp; [<a style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">options</a>]
+			<input type="submit" value="Go" class="button"> &nbsp; <a style="margin-top: 10px;font-family: arial, verdana, sans-serif;font-size: 120%;color: #fff;background-color: #337ab7;border: none;border-radius: 4px;padding: 3px 10px;text-transform:uppercase;" style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">options</a>
 			<ul id="options">
 				<?php foreach ($toShow as $option) echo '<li><input type="checkbox" name="'.$option['name'].'" id="'.$option['name'].'"'.$option['checked'].'><label for="'.$option['name'].'" class="tooltip" onmouseover="tooltip(\''.$option['escaped_desc'].'\')" onmouseout="exit();">'.$option['title'].'</label></li>';?>
 			</ul>
