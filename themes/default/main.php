@@ -211,11 +211,15 @@
 	disableOverride();
 </script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- homepage -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1017297966155312"
+     data-ad-slot="1009809432"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-1017297966155312",
-          enable_page_level_ads: true
-     });
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </head>
 <body>
