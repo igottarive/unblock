@@ -2,7 +2,13 @@
 
 <html>
 <head>
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-1017297966155312",
+          enable_page_level_ads: true
+     });
+</script>
 <title>UnblockMySite Private Browsing</title>
 <meta name="description" content="<!--[meta_description]-->">
 <meta name="keywords" content="<!--[meta_keywords]-->">
