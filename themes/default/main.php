@@ -210,12 +210,21 @@
 	});
 	disableOverride();
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123367985-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123367985-1');
+</script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- homepage -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-1017297966155312"
-     data-ad-slot="1009809432"
+     data-ad-slot="1318282260"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
