@@ -211,14 +211,15 @@
 	disableOverride();
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123367985-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86278502-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-123367985-1');
+  gtag('config', 'UA-86278502-2');
 </script>
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- homepage -->
 <ins class="adsbygoogle"
